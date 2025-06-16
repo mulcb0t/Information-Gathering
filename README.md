@@ -13,14 +13,14 @@ The test covers everything from initial reconnaissance (Passive & Active), DNS e
 
 ## Tools & Techniques Used:
 
-→ `ping`, `whois`, `dig`, `nslookup`, `host` → Basic recon
-→ `Sublist3r` → Subdomain enumeration
-→ `WhatWeb`, `WAFW00F` – Web technology & Firewall detection
-→ `Nmap` – Full TCP SYN scan
-→ `Telnet`, `Netcat`, `bash reverse shell` – Shell access & reverse connection
-→ `Metasploit` – Automated Telnet login brute-force
-→ `Hydra` – Credential brute-force (16 successful logins)
-→ Manual post-exploitation (process listing, user enumeration, log clearing)
+- `ping`, `whois`, `dig`, `nslookup`, `host` – Basic recon
+- `Sublist3r` – Subdomain enumeration
+- `WhatWeb`, `WAFW00F` – Web technology & firewall detection
+- `Nmap` – Full TCP SYN scan
+- `Telnet`, `Netcat`, `bash reverse shell` – Shell access & reverse connection
+- `Metasploit` – Automated Telnet login brute-force
+- `Hydra` – Credential brute-force (16 successful logins)
+- Manual post-exploitation (process listing, user enumeration, log clearing)
 
 
 ## Step-by-step attack:
